@@ -3,7 +3,7 @@ run-name : ${{github.actor}} is learning Github Actions
 on : [push]
 jobs :
 check-bats-version :
-runs-on :unbuntu-latest
+runs-on :ubuntu-latest
 steps:
 - uses: actions/chekout@v3
 -uses : actions/setup-node@v3
