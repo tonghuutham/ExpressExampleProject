@@ -2,7 +2,7 @@ name : learn-github-actions
 run-name : ${{github.actor}} is learning Github Actions
 on : [push]
 jobs :
-check-bát-version :
+check-bats-version :
 runs-on :unbuntu-latest
 steps:
 - uses: actions/chekout@v3
